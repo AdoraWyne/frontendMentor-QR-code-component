@@ -3,18 +3,18 @@
 * {
     font-family: 'Outfit', sans-serif;
     box-sizing: border-box;
-}
-
-html {
-    background-color: hsl(212, 45%, 89%);
-    font-size: 15px;
+    margin: 0;
+    padding: 0;
 }
 
 body {
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .card {
@@ -34,26 +34,25 @@ img {
     width: 100%;
 }
 
-.text-content{
-    text-align: center;
-}
-
-.title {
+h3 {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
     font-size: 1.5rem;
+    margin: 15px 5px;
 }
 
-.paragraph {
+p {
     color: hsl(220, 15%, 55%);
     font-weight: 400;
+    margin: 10px 20px;
 }
 
+
 .attribution {
+    font-size: 14px;
     text-align: center;
 }
 
-/* When screen is at least 1440px and above */
-@media screen and (min-width: 1440px) {
-
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
